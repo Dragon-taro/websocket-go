@@ -1,0 +1,30 @@
+{
+  "name": "websocket-go",
+  "version": "1.0.0",
+  "description": "## 技術要件 go + vue + vuex + websocket + mysql",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.4.2",
+    "vuex": "^2.4.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx webpack --env development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragon-taro/websocket-go.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragon-taro/websocket-go/issues"
+  },
+  "homepage": "https://github.com/Dragon-taro/websocket-go#readme"
+}
