@@ -21,7 +21,7 @@ func main() {
 	})
 
 	// api
-	r.GET("/messages", message.Root)
+	r.GET("/messages", message.Get)
 
 	// static
 	r.Static("/public", "./public")

@@ -6,7 +6,7 @@ import (
 
 type MessageController struct{}
 
-func (m *MessageController) Root(c *gin.Context) {
+func (m *MessageController) Get(c *gin.Context) {
 	c.JSON(200, gin.H{
 		"masseage": "hello golang",
 	})
