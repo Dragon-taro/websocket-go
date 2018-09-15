@@ -13,7 +13,9 @@ func (m *MessageController) Get(c *gin.Context) {
 	messages, err := model.GetAll()
 	if err != nil {
 		fmt.Println(err)
-		return // error処理分からん
+		// return err
+		c.JSON(500, err)
+		return
 	}
 	c.JSON(200, messages)
 }
